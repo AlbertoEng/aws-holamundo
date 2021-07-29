@@ -3,7 +3,7 @@ const app = express();
 
 
 app.use('/', (req, res)=>{
-    res.end('<h1>Hola Mundo</h1>')
+    res.end('<h1>Hola Mundo 2</h1>')
 })
 
 app.listen(3000, ()=>{
